@@ -2,12 +2,13 @@
 int main()
 {
 int a,b,i;
-printf(Enter the two number");
+printf("Enter the two number");
 scanf("%d%d",&a,&b);
-for(i=a;i<=b;i++);
+for(i=a;i<=b;++i)
 {
 if(i%2!=0)
-printf("The num is");
+printf("The num is %d",i);
+printf("\n");
 }
 return 0;
 }
